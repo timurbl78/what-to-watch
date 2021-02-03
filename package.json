@@ -1,0 +1,34 @@
+{
+  "name": "what-to-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "eslint": "eslint src/**/*.js src/**/*.jsx",
+    "test": "npm run eslint",
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurbl78/what-to-watch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timurbl78/what-to-watch/issues"
+  },
+  "homepage": "https://github.com/timurbl78/what-to-watch#readme",
+  "devDependencies": {
+    "@babel/core": "7.12.13",
+    "@babel/preset-env": "7.12.13",
+    "@babel/preset-react": "7.12.13",
+    "babel-loader": "8.2.2",
+    "eslint": "7.19.0",
+    "eslint-config-htmlacademy": "2.1.0",
+    "eslint-plugin-react": "7.22.0",
+    "webpack": "5.20.1",
+    "webpack-cli": "4.5.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}
