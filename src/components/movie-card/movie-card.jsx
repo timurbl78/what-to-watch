@@ -56,7 +56,7 @@ const MovieCard = (props) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default MovieCard;
