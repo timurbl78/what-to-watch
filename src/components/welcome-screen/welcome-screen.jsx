@@ -44,7 +44,7 @@ const WelcomeScreen = (props) => {
         </ul>
 
         <div className="catalog__movies-list">
-          {movies.map((movie) => <SmallMovieCard movie={movie}/>)}
+          {movies.map((movie) => <SmallMovieCard movie={movie} key={movie}/>)}
         </div>
 
         <div className="catalog__more">
